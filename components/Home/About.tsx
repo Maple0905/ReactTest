@@ -1,11 +1,11 @@
-import AboutImg from '../../public/img/about.png';
+import styles from '../custom.module.css';
 
 export default function About() {
   return (
     <div className="max-w-6xl w-full py-24 grid grid-cols-12 gap-10">
       <div className="col-span-6 pr-5">
         <div className="h-full flex items-center">
-          <div className="h-full w-full relative" style={{ backgroundImage: `url(${AboutImg.src})`, backgroundSize: 'cover', }}>
+          <div className={`h-full w-full relative ${styles.about_img}`}>
             <div className="bg-orange-400 absolute bottom-0 left-0 w-30 h-30 py-5 flex flex-col items-center text-white">
               <h1 className="text-5xl font-extrabold">10+</h1>
               <div className="text-md mx-7 flex flex-col items-center">
