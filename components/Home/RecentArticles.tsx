@@ -15,8 +15,8 @@ export default function RecentArticle() {
           <h1 className="">Recent</h1>
           <h1 className="text-orange-400">&nbsp;Articles</h1>
         </div>
-        <div className="grid grid-cols-12 gap-12">
-          <div className="col-span-4 drop-shadow-xl">
+        <div className="md:grid md:grid-cols-12 gap-12">
+          <div className="col-span-4 drop-shadow-xl p-10 md:p-0">
             <div className="w-full p-7 bg-white">
               <a href="#">
                 <Image className="cover w-full h-full pb-5" src={ArticleImg1.src} alt="My Image" width={500} height={500} />
@@ -40,7 +40,7 @@ export default function RecentArticle() {
               <a href="#" className="text-orange-400 text-md font-bold">Read More</a>
             </div>
           </div>
-          <div className="col-span-4 drop-shadow-xl">
+          <div className="col-span-4 drop-shadow-xl p-10 md:p-0">
             <div className="w-full p-7 bg-white">
               <a href="#">
                 <Image className="cover w-full h-full pb-5" src={ArticleImg2.src} alt="My Image" width={500} height={500} />
@@ -64,7 +64,7 @@ export default function RecentArticle() {
               <a href="#" className="text-orange-400 text-md font-bold py-2">Read More</a>
             </div>
           </div>
-          <div className="col-span-4 drop-shadow-xl">
+          <div className="col-span-4 drop-shadow-xl p-10 md:p-0">
             <div className="w-full p-7 bg-white">
               <a href="#">
                 <Image className="cover w-full h-full pb-5" src={ArticleImg3.src} alt="My Image" width={500} height={500} />
