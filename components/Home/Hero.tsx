@@ -3,13 +3,13 @@ import styles from "../custom.module.css";
 export default function Hero() {
   return (
   <div className={`w-full h-full relative flex flex-col items-center ${styles.hero_landing_img}`}>
-      <div className="max-w-6xl w-full grid grid-cols-12 py-32">
-        <div className="col-span-7 relative border rounded-lg z-20">
-          <div className="p-12">
+      <div className="max-w-6xl w-full grid grid-cols-12 py-12 md:py-32">
+        <div className="col-start-2 col-span-10 md:col-start-1 md:col-span-7 relative border rounded-lg z-20">
+          <div className="p-6 md:p-12 text-center md:text-left">
             <p className="text-orange-400 text-md pb-3">We Are Top Renewable Energy Solutions!</p>
-            <div className="text-6xl text-white">
+            <div className="text-4xl lg:text-6xl text-white">
               <h1 className="font-extrabold pb-3">Powering Homes</h1>
-              <div className="flex">
+              <div className="flex justify-center md:justify-start">
                 <div className="inline-block pb-3">
                   <h1 className="font-extrabold mb-3">With</h1>
                   <hr className="border-white" style={{ width: '120%' }}></hr>
